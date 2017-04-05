@@ -63,7 +63,7 @@ for e in range(epochs):
         del_w += learnrate * error_term * x
 
     # TODO: Update weights using the learning rate and the average change in weights
-    weights += del_w
+    weights += (del_w / n_records)
 
     # Printing out the mean square error on the training set
     if e % (epochs / 10) == 0:
