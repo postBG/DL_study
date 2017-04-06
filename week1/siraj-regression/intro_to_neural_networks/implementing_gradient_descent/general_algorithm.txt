@@ -1,0 +1,11 @@
+Set the weight step to zero: Δw_i = 0
+
+For each record in the training data:
+    Make a forward pass through the network, calculating the output y^ = f(∑w_i * x_i)
+    Calculate the error term for the output unit, δ = (y − y^) * f'(∑w_i * x_i)
+    Update the weight step Δw_i = Δw_i + δ * x_i
+
+Update the weights w_i = w_i + (η * Δw_i)/m  where η is the learning rate and m is the number of records.
+
+Here we're averaging the weight steps to help reduce any large variations in the training data.
+Repeat for e epochs.

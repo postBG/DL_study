@@ -1,0 +1,17 @@
+Set the weight steps for each layer to zero
+    The input to hidden weights Δw_ij = 0
+    The hidden to output weights ΔW_j = 0
+
+For each record in the training data:
+    Make a forward pass through the network, calculating the output y^
+    Calculate the error gradient in the output unit, δ^o = (y − y^) * f'​(z) where z = ∑W_j * a_j, the input to the output unit.
+    Propagate the errors to the hidden layer δ^h_j = δ^o * W_j * f​'(h_j)
+    Update the weight steps,:
+        ΔW_j = ΔW_j + δ^o * a_j
+        Δw_ij = Δw_ij + δ^h_j * a_i
+​​
+Update the weights, where η is the learning rate and m is the number of records:
+    W_j = W_j + ηΔW_j / m
+    w_ij = w_ij + ηΔw_ij / m
+
+Repeat for e epochs.
