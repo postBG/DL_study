@@ -15,3 +15,9 @@ Update the weights, where η is the learning rate and m is the number of records
     w_ij = w_ij + ηΔw_ij / m
 
 Repeat for e epochs.
+
+
+
+further reading:
+    https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b
+    https://www.youtube.com/watch?v=59Hbtz7XgjM

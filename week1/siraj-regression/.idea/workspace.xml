@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcd57973-dd50-4a33-919b-855d7d3d8347" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intro_to_neural_networks/implementing_backpropagation/backprop.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intro_to_neural_networks/implementing_backpropagation/binary.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intro_to_neural_networks/implementing_backpropagation/data_prep.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intro_to_neural_networks/implementing_backpropagation/general_algorithm.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intro_to_neural_networks/implementing_backpropagation/solution.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intro_to_neural_networks/implementing_gradient_descent/general_algorithm.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intro_to_neural_networks/implementing_gradient_descent/solution.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/intro_to_neural_networks/implementing_gradient_descent/gradient.py" afterPath="$PROJECT_DIR$/intro_to_neural_networks/implementing_gradient_descent/gradient.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/intro_to_neural_networks/implementing_backpropagation/backprop.py" afterPath="$PROJECT_DIR$/intro_to_neural_networks/implementing_backpropagation/backprop.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/intro_to_neural_networks/implementing_backpropagation/general_algorithm.txt" afterPath="$PROJECT_DIR$/intro_to_neural_networks/implementing_backpropagation/general_algorithm.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,6 +16,7 @@
     <SUITE FILE_PATH="coverage/siraj_regression$boston_house.coverage" NAME="boston_house Coverage Results" MODIFIED="1490673094157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boston_house_prices" />
     <SUITE FILE_PATH="coverage/siraj_regression$backpropagation_exercise.coverage" NAME="backpropagation_exercise Coverage Results" MODIFIED="1491416009733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intro_to_neural_networks" />
     <SUITE FILE_PATH="coverage/siraj_regression$not_perceptron_quiz.coverage" NAME="not_perceptron_quiz Coverage Results" MODIFIED="1491144697664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intro_to_neural_networks" />
+    <SUITE FILE_PATH="coverage/siraj_regression$backprop.coverage" NAME="backprop Coverage Results" MODIFIED="1491452486831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intro_to_neural_networks/implementing_backpropagation" />
     <SUITE FILE_PATH="coverage/siraj_regression$gapminder1.coverage" NAME="gapminder1 Coverage Results" MODIFIED="1490672925673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gapminder" />
     <SUITE FILE_PATH="coverage/siraj_regression$simplest_nn.coverage" NAME="simplest_nn Coverage Results" MODIFIED="1491147755469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intro_to_neural_networks" />
     <SUITE FILE_PATH="coverage/siraj_regression$or_perceptron_quiz.coverage" NAME="or_perceptron_quiz Coverage Results" MODIFIED="1491144553022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intro_to_neural_networks" />
@@ -34,7 +28,7 @@
       <file leaf-file-name="gradient.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/intro_to_neural_networks/implementing_gradient_descent/gradient.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
+            <state relative-caret-position="-228">
               <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -43,20 +37,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="general_algorithm.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/intro_to_neural_networks/implementing_gradient_descent/general_algorithm.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="backpropagation_exercise.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/intro_to_neural_networks/backpropagation_exercise.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
+            <state relative-caret-position="570">
               <caret line="39" column="68" lean-forward="false" selection-start-line="39" selection-start-column="68" selection-end-line="39" selection-end-column="68" />
               <folding />
             </state>
@@ -66,8 +50,8 @@
       <file leaf-file-name="backprop.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/intro_to_neural_networks/implementing_backpropagation/backprop.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            <state relative-caret-position="273">
+              <caret line="57" column="72" lean-forward="true" selection-start-line="57" selection-start-column="72" selection-end-line="57" selection-end-column="72" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -87,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="general_algorithm.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="general_algorithm.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/intro_to_neural_networks/implementing_backpropagation/general_algorithm.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+            <state relative-caret-position="380">
+              <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -124,21 +108,11 @@
       <file leaf-file-name="solution.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/intro_to_neural_networks/implementing_backpropagation/solution.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1197">
-              <caret line="63" column="64" lean-forward="true" selection-start-line="63" selection-start-column="64" selection-end-line="63" selection-end-column="64" />
+            <state relative-caret-position="406">
+              <caret line="66" column="44" lean-forward="true" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="binary.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/intro_to_neural_networks/implementing_backpropagation/binary.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="678">
-              <caret line="401" column="0" lean-forward="false" selection-start-line="401" selection-start-column="0" selection-end-line="401" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -176,14 +150,14 @@
         <option value="$PROJECT_DIR$/intro_to_neural_networks/implementing_gradient_descent/binary.csv" />
         <option value="$PROJECT_DIR$/intro_to_neural_networks/multilayer.py" />
         <option value="$PROJECT_DIR$/intro_to_neural_networks/backpropagation_exercise.py" />
-        <option value="$PROJECT_DIR$/intro_to_neural_networks/implementing_backpropagation/backprop.py" />
         <option value="$PROJECT_DIR$/intro_to_neural_networks/implementing_backpropagation/data_prep.py" />
         <option value="$PROJECT_DIR$/intro_to_neural_networks/implementing_backpropagation/binary.csv" />
         <option value="$PROJECT_DIR$/intro_to_neural_networks/implementing_backpropagation/solution.py" />
         <option value="$PROJECT_DIR$/intro_to_neural_networks/implementing_gradient_descent/solution.py" />
-        <option value="$PROJECT_DIR$/intro_to_neural_networks/implementing_backpropagation/general_algorithm.txt" />
         <option value="$PROJECT_DIR$/intro_to_neural_networks/implementing_gradient_descent/gradient.py" />
         <option value="$PROJECT_DIR$/intro_to_neural_networks/implementing_gradient_descent/general_algorithm.txt" />
+        <option value="$PROJECT_DIR$/intro_to_neural_networks/implementing_backpropagation/backprop.py" />
+        <option value="$PROJECT_DIR$/intro_to_neural_networks/implementing_backpropagation/general_algorithm.txt" />
       </list>
     </option>
   </component>
@@ -256,24 +230,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="implementing_gradient_descent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="siraj-regression" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="siraj-regression" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="intro_to_neural_networks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="implementing_backpropagation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -301,26 +257,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.backpropagation_exercise">
-    <configuration default="false" name="and_perceptron_quiz" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/intro_to_neural_networks" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="siraj-regression" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/intro_to_neural_networks/and_perceptron_quiz.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.backprop">
     <configuration default="false" name="or_perceptron_quiz" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -392,6 +329,25 @@
       <module name="siraj-regression" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/intro_to_neural_networks/backpropagation_exercise.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="backprop" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/intro_to_neural_networks/implementing_backpropagation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="siraj-regression" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/intro_to_neural_networks/implementing_backpropagation/backprop.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -562,19 +518,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.and_perceptron_quiz" />
-      <item index="1" class="java.lang.String" itemvalue="Python.or_perceptron_quiz" />
-      <item index="2" class="java.lang.String" itemvalue="Python.not_perceptron_quiz" />
-      <item index="3" class="java.lang.String" itemvalue="Python.simplest_nn" />
-      <item index="4" class="java.lang.String" itemvalue="Python.backpropagation_exercise" />
+      <item index="0" class="java.lang.String" itemvalue="Python.or_perceptron_quiz" />
+      <item index="1" class="java.lang.String" itemvalue="Python.not_perceptron_quiz" />
+      <item index="2" class="java.lang.String" itemvalue="Python.simplest_nn" />
+      <item index="3" class="java.lang.String" itemvalue="Python.backpropagation_exercise" />
+      <item index="4" class="java.lang.String" itemvalue="Python.backprop" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.backpropagation_exercise" />
-        <item index="1" class="java.lang.String" itemvalue="Python.simplest_nn" />
-        <item index="2" class="java.lang.String" itemvalue="Python.not_perceptron_quiz" />
-        <item index="3" class="java.lang.String" itemvalue="Python.or_perceptron_quiz" />
-        <item index="4" class="java.lang.String" itemvalue="Python.and_perceptron_quiz" />
+        <item index="0" class="java.lang.String" itemvalue="Python.backprop" />
+        <item index="1" class="java.lang.String" itemvalue="Python.backpropagation_exercise" />
+        <item index="2" class="java.lang.String" itemvalue="Python.simplest_nn" />
+        <item index="3" class="java.lang.String" itemvalue="Python.not_perceptron_quiz" />
+        <item index="4" class="java.lang.String" itemvalue="Python.or_perceptron_quiz" />
       </list>
     </recent_temporary>
   </component>
@@ -604,7 +560,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2857143" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -945,36 +901,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/intro_to_neural_networks/backpropagation_exercise.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="39" column="68" lean-forward="false" selection-start-line="39" selection-start-column="68" selection-end-line="39" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/intro_to_neural_networks/implementing_backpropagation/data_prep.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/intro_to_neural_networks/implementing_backpropagation/binary.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="401" column="0" lean-forward="false" selection-start-line="401" selection-start-column="0" selection-end-line="401" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/intro_to_neural_networks/implementing_backpropagation/solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="63" column="64" lean-forward="true" selection-start-line="63" selection-start-column="64" selection-end-line="63" selection-end-column="64" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -991,24 +921,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/intro_to_neural_networks/implementing_backpropagation/backprop.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/intro_to_neural_networks/implementing_backpropagation/general_algorithm.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/intro_to_neural_networks/implementing_gradient_descent/data_prep.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -1019,9 +931,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/intro_to_neural_networks/implementing_gradient_descent/general_algorithm.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/intro_to_neural_networks/implementing_gradient_descent/gradient.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
+        <state relative-caret-position="-228">
           <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -1029,10 +949,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/intro_to_neural_networks/implementing_gradient_descent/general_algorithm.txt">
+    <entry file="file://$PROJECT_DIR$/intro_to_neural_networks/backpropagation_exercise.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="570">
+          <caret line="39" column="68" lean-forward="false" selection-start-line="39" selection-start-column="68" selection-end-line="39" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intro_to_neural_networks/implementing_backpropagation/binary.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7619">
+          <caret line="401" column="0" lean-forward="false" selection-start-line="401" selection-start-column="0" selection-end-line="401" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intro_to_neural_networks/implementing_backpropagation/solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="66" column="44" lean-forward="true" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intro_to_neural_networks/implementing_backpropagation/backprop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="57" column="72" lean-forward="true" selection-start-line="57" selection-start-column="72" selection-end-line="57" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intro_to_neural_networks/implementing_backpropagation/general_algorithm.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
           <folding />
         </state>
       </provider>
