@@ -44,7 +44,7 @@ for e in range(epochs):
         ## propagate errors to hidden layer
 
         # TODO: Calculate the hidden layer's contribution to the error
-        hidden_error = np.dot(output_error_term, weights_hidden_output.T).T
+        hidden_error = np.dot(weights_hidden_output, output_error_term)
 
         # TODO: Calculate the error term for the hidden layer
         hidden_error_term = hidden_error * hidden_output * (1 - hidden_output)
