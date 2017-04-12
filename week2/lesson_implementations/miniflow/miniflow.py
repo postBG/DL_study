@@ -58,7 +58,9 @@ class Add(Node):
 
         Your code here!
         """
-        self.value = self.inbound_nodes[0].value + self.inbound_nodes[1].value
+        x_value = self.inbound_nodes[0].value
+        y_value = self.inbound_nodes[1].value
+        self.value = x_value + y_value
 
 
 """
