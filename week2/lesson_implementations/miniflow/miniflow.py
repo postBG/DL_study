@@ -76,7 +76,7 @@ class Linear(Node):
         """
         inputs = np.array(self.inbound_nodes[0].value)
         weights = np.array(self.inbound_nodes[1].value)
-        bias = self.inbound_nodes[2].value
+        bias = np.array(self.inbound_nodes[2].value)
 
         self.value = np.dot(inputs, weights) + bias
 
