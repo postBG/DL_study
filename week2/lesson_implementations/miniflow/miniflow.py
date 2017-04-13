@@ -13,12 +13,17 @@ class Node(object):
         `inbound_nodes`: A list of nodes with edges into this node.
     """
 
-    def __init__(self, inbound_nodes=[]):
+    def __init__(self, inbound_nodes=None):
         """
         Node's constructor (runs when the object is instantiated). Sets
         properties that all nodes need.
+        
+        Args:
+            inbound_nodes: default value is [] 
         """
         # A list of nodes with edges into this node.
+        if inbound_nodes is None:
+            inbound_nodes = []
         self.inbound_nodes = inbound_nodes
 
         # The eventual value of this node. Set by running
@@ -188,10 +193,8 @@ class Sigmoid(Node):
 
             NOTE: See the Linear node and MSE node for examples.
             """
-            input_node = self.inbound_nodes[0]
-
-            partial = self._sigmoid(input_node.value) * (1 - self._sigmoid(input_node.value))
-            self.gradients[input_node] += grad_cost * partial
+            partial = self.value * (1 - self.value)
+            self.gradients[self.inbound_nodes[0]] += grad_cost * partial
 
 
 class MSE(Node):
