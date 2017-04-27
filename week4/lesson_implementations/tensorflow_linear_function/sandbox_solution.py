@@ -2,7 +2,7 @@ import tensorflow as tf
 # Sandbox Solution
 # Note: You can't run code in this tab
 from tensorflow.examples.tutorials.mnist import input_data
-from .quiz_solution import get_weights, get_biases, linear
+from quiz_solution import get_weights, get_biases, linear
 
 
 def mnist_features_labels(n_labels):

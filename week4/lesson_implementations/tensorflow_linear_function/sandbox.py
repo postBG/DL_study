@@ -1,7 +1,7 @@
 # Solution is available in the other "sandbox_solution.py" tab
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
-from .quiz import get_weights, get_biases, linear
+from quiz import get_weights, get_biases, linear
 
 
 def mnist_features_labels(n_labels):
@@ -47,6 +47,7 @@ train_features, train_labels = mnist_features_labels(n_labels)
 
 with tf.Session() as session:
     # TODO: Initialize session variables
+    session.run(tf.global_variables_initializer())
 
     # Softmax
     prediction = tf.nn.softmax(logits)
